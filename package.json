@@ -1,0 +1,24 @@
+{
+  "name": "fitness_tracker",
+  "version": "1.0.0",
+  "description": "A workout tracker that will allow the user to view, create, and track daily workouts",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisayyid/Fitness_Tracker.git"
+  },
+  "author": "Alex Isayyid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisayyid/Fitness_Tracker/issues"
+  },
+  "homepage": "https://github.com/aisayyid/Fitness_Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27"
+  }
+}
