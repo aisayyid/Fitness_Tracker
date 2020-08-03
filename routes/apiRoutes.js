@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Workout = require("../models");
+const Workout = require("../models/workout");
 
 // You will need at least Four (4) api routes:
 // - GET ( "/api/workouts" ) - Get all workouts
@@ -24,8 +24,8 @@ router.get("/api/workouts/range", (req, res) => {
         });
 });
 // - POST ( "/api/workouts" ) - Create a new Workout
-router.post("/api/workouts", ({ body }, res) => {
-    Workout.create(body)
+router.post("/api/workouts", (req, res) => {
+    Workout.create({})
         .then(dbWorkouts => {
             res.json(dbWorkouts);
         })
