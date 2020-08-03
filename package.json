@@ -1,24 +1,19 @@
 {
-  "name": "fitness_tracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "A workout tracker that will allow the user to view, create, and track daily workouts",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aisayyid/Fitness_Tracker.git"
-  },
-  "author": "Alex Isayyid",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aisayyid/Fitness_Tracker/issues"
-  },
-  "homepage": "https://github.com/aisayyid/Fitness_Tracker#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.27"
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
   }
 }
