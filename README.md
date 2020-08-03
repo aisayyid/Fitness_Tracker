@@ -18,6 +18,8 @@
 
   ## Demo
   
+  ![](images/Fitness_Tracker.gif)
+  
   ## Deployed
   https://fitness-tracker-ami.herokuapp.com/?id=5f287542931aa60017e54f21
 
